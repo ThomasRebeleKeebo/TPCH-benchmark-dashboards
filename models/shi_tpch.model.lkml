@@ -1,15 +1,15 @@
-connection: "shi_tpch"
+connection: "wirecard-tpch"
 
 # include all the views
 include: "/views/**/*.view"
 
 include: "/dashboards/*.dashboard"
 
-datagroup: shi_tpch_default_datagroup {
+datagroup: wirecard_tpch_default_datagroup {
   max_cache_age: "0 seconds"
 }
 
-persist_with: shi_tpch_default_datagroup
+persist_with: wirecard_tpch_default_datagroup
 
 explore: lineitem {
   label: "(1) Keebo: Lineitem, Part"

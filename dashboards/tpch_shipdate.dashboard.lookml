@@ -7,7 +7,7 @@
   elements:
   - title: Q1
     name: Q1
-    model: shi_tpch
+    model: wirecard_tpch
     explore: lineitem
     type: looker_column
     fields: [lineitem.l_returnflag, lineitem.l_linestatus, lineitem.avg_disc, lineitem.avg_price,
@@ -57,7 +57,7 @@
     height: 7
   - title: Q6
     name: Q6
-    model: shi_tpch
+    model: wirecard_tpch
     explore: lineitem
     type: single_value
     fields: [lineitem.revenue]
@@ -83,7 +83,7 @@
     height: 7
   - title: Q14
     name: Q14
-    model: shi_tpch
+    model: wirecard_tpch
     explore: lineitem
     type: single_value
     fields: [lineitem.promo_revenue]
@@ -107,7 +107,7 @@
     height: 7
   - title: Q17
     name: Q17
-    model: shi_tpch
+    model: wirecard_tpch
     explore: lineitem
     type: single_value
     fields: [lineitem.sum_base_price]
@@ -143,7 +143,7 @@
       type: advanced
       display: popover
       options: []
-    model: shi_tpch
+    model: wirecard_tpch
     explore: lineitem
     listens_to_filters: []
     field: lineitem.l_shipdate_date

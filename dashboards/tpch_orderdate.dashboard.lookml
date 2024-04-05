@@ -7,7 +7,7 @@
   elements:
   - title: Q3
     name: Q3
-    model: shi_tpch
+    model: wirecard_tpch
     explore: lineitem_orders
     type: looker_line
     fields: [lineitem_orders.l_orderkey, lineitem_orders.revenue, orders.o_orderdate_date,
@@ -49,7 +49,7 @@
     height: 8
   - title: Q5
     name: Q5
-    model: shi_tpch
+    model: wirecard_tpch
     explore: lineitem_orders
     type: looker_column
     fields: [nation.n_name, lineitem_orders.revenue]
@@ -94,7 +94,7 @@
     height: 8
   - title: Q10
     name: Q10
-    model: shi_tpch
+    model: wirecard_tpch
     explore: lineitem_orders
     type: looker_column
     fields: [customer.c_mktsegment, lineitem_orders.revenue, nation.n_name]
@@ -156,7 +156,7 @@
     height: 7
   - title: Q10 (variation with Part)
     name: Q10 (variation with Part)
-    model: shi_tpch
+    model: wirecard_tpch
     explore: lineitem_orders
     type: looker_column
     fields: [part.p_brand, nation.n_name, lineitem_orders.revenue]
@@ -225,7 +225,7 @@
       type: advanced
       display: popover
       options: []
-    model: shi_tpch
+    model: wirecard_tpch
     explore: lineitem_orders
     listens_to_filters: []
     field: orders.o_orderdate_date

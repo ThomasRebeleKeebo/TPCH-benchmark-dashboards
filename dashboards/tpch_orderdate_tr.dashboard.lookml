@@ -26,8 +26,7 @@
     model: wirecard_tpch
     explore: lineitem_orders
     type: looker_line
-    fields: [lineitem_orders.l_orderkey, lineitem_orders.revenue, orders.o_orderdate_date,
-      orders.o_shippriority]
+    fields: [lineitem_orders.l_orderkey, lineitem_orders.revenue, orders.o_orderdate_date]
     filters:
       customer.c_mktsegment: FURNITURE
     sorts: [orders.o_orderdate_date desc]

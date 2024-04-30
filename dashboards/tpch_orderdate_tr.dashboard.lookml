@@ -8,7 +8,7 @@
   - name: O Orderdate Date
     title: O Orderdate Date
     type: field_filter
-    default_value: after 2022-01-01
+    default_value: after 2021-12-01
     allow_multiple_values: true
     required: false
     ui_config:
